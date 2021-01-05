@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="341" pageHeight="842" columnWidth="301" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d2edb639-4ac1-49b3-a611-cbd5ab660fb2">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="478"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="95" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="301" height="47" uuid="92a39e21-e266-47ef-a84b-64965a39d1b7"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[TESTE MF-e - MDK TANCA TS 1000
+CPNJ: 08.723.218/0001-86
+IE: 562377111111
+Avenida Jose Jatahy, 1, Fortaleza - CE, CEP: 60010465
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="50" width="301" height="20" uuid="c7fe88ed-e069-4a7c-8791-8a7c3f0e28dd"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DANFE CF-e - Documento Auxiliar da Nota Fiscal Eletrônica para
+Consumidor Final]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="71" width="301" height="20" uuid="3d48ca12-1de0-46f5-ab4f-8c80945b6e9a"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Não Permite aproveitamento de crédito de ICMS]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="26" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="4" width="86" height="20" uuid="980c45c8-0c91-4649-8f07-b3c2aa4e8efc"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="4" width="75" height="20" uuid="9dd15470-5265-42a4-9fd4-7191cd448e3e"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descrição]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="4" width="36" height="20" uuid="79513b58-04de-4ccb-bbd4-596671c2ca57"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Qtde]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="4" width="23" height="20" uuid="aa1cc6e0-c4fb-41fb-b6d8-6f4988611cf1"/>
+				<textElement textAlignment="Center">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Un]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="4" width="39" height="20" uuid="1be79585-f643-4737-92b0-ea0c8074dcd1"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Vl Unit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="4" width="42" height="20" uuid="0bd8dbb6-e17d-470a-a84c-f4e2b74c2989"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Vl Total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="537" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="86" height="20" uuid="5249f899-74da-43d2-8f62-aac5259977d1"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="0" width="215" height="20" uuid="f2e2fe7f-e98f-4315-9c61-f75a11246f1a"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="20" width="36" height="20" uuid="b57f3b98-ac98-4434-84b2-ceddead15159"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="20" width="23" height="20" uuid="dcd12035-f7b3-402e-bbb9-426c1577e8dc"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="20" width="39" height="20" uuid="54371347-89c7-43f0-a962-4990b1fc8965"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="20" width="42" height="20" uuid="016cabc4-9800-45be-afbc-16d2b15e7637"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="40" width="220" height="20" uuid="dac310d1-4832-4761-8bcb-6ad8a4f7b9c5"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="40" width="42" height="20" uuid="f1a7d726-a1c1-49a4-96e4-78db60d120f5"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="81" width="39" height="20" uuid="149d2f8b-6baf-47b2-95c1-0ef98a5b9cd2"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="61" width="215" height="20" uuid="3ca135a1-af37-4c3f-85d3-59a3798734b2"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="61" width="86" height="20" uuid="7f529201-9ce3-4a4c-ab00-d49a3c78e63e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="81" width="36" height="20" uuid="8c1d40a1-3794-4e94-8825-9301257b7387"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="81" width="23" height="20" uuid="ab164968-7d69-4729-994b-ac16f7b55b09"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="101" width="220" height="20" uuid="38238d2c-2545-418a-a5bd-246b1995f037"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="81" width="42" height="20" uuid="9ad64993-6f6e-4552-ac32-0e2a078a03c1"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="101" width="42" height="20" uuid="df09ca9a-4abf-408a-9073-165e8fc30f14"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="121" width="215" height="20" uuid="faae8b14-4091-424c-b50a-69741d738e2e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="222" width="42" height="20" uuid="3338d063-1ec4-4d23-a3bf-8ecdcc506f14"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="121" width="86" height="20" uuid="d05941ef-9710-47fa-a6a3-1f16081ba489"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="141" width="36" height="20" uuid="16b78422-633a-4a65-a3c8-da2458922dd9"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="141" width="23" height="20" uuid="609cd162-f913-4f94-9e00-63e3bb30ecb1"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="222" width="220" height="20" uuid="3ebfaf0d-3742-406d-8668-ceca6b9c436a"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="182" width="215" height="20" uuid="82d7544c-9263-4570-b66c-c38014c8c31e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="141" width="39" height="20" uuid="2b9eece5-7a9e-41ab-95d3-7e092175a325"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="202" width="23" height="20" uuid="62936488-e10d-4c32-bbd8-e0c371719df2"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="161" width="220" height="20" uuid="3bf72dd3-f4ea-406b-8556-045e352b54b8"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="182" width="86" height="20" uuid="6eb3941a-7c75-44dc-9323-3c46bc150ec3"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="202" width="42" height="20" uuid="0583e5fa-b66c-47ae-b46e-de82a5c775cf"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="202" width="39" height="20" uuid="eadef930-2d19-459e-a1c6-8d7bb38398dd"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="141" width="42" height="20" uuid="d8199c32-01ff-4d33-93b5-ba672b2c93b4"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="202" width="36" height="20" uuid="de47fc04-6b97-4a91-9ef6-d23ebfdc3586"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="161" width="42" height="20" uuid="1be509bd-6f08-4e46-a829-1b3977bf399d"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="383" width="39" height="20" uuid="f4569c59-b319-4ff5-90b1-ae6320460f40"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="242" width="215" height="20" uuid="73c97251-9185-4042-bb3c-5f0a064a804d"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="262" width="23" height="20" uuid="7216387c-be21-4d89-89d3-f63fdbd1a621"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="303" width="215" height="20" uuid="a4f4d49e-447e-410a-9865-b63afb8da16a"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="403" width="220" height="20" uuid="5e33c224-c951-4985-8175-6ab9abb30374"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="383" width="23" height="20" uuid="2e1a6171-97f3-499b-9fe4-57c16c837bd3"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="262" width="39" height="20" uuid="cef1e999-077c-497c-94d3-53a37e411298"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="444" width="39" height="20" uuid="3d4be645-f560-45d9-80d6-7dcc657a1ca9"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="383" width="36" height="20" uuid="bceec969-5018-4eb8-a096-e51a95d91b6f"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="282" width="220" height="20" uuid="4f7e4417-8b48-47cb-956d-319bb97fe048"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="323" width="42" height="20" uuid="10980f0e-54e4-4515-ae48-807051602d0e"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="424" width="215" height="20" uuid="34734c98-5b12-4f34-b972-738b5a890372"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="343" width="42" height="20" uuid="cf1afc91-ce53-42d1-a434-4d242fd7d6e6"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="464" width="42" height="20" uuid="5f70d349-55f6-4809-b9f0-aa8a528be07a"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="242" width="86" height="20" uuid="e1169079-8286-4759-8c29-db0ce6352a28"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="262" width="36" height="20" uuid="4d5eecd8-9e66-4bdc-8f69-ef88847f5352"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="444" width="42" height="20" uuid="545723b0-11b6-4f68-a713-64fb8f940f4f"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="363" width="86" height="20" uuid="be27bd61-46ab-4853-8549-d82d37d36e23"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="343" width="220" height="20" uuid="9b1645d7-b4a1-4f65-b003-d72c3842dbc7"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="363" width="215" height="20" uuid="3fecefb3-9c4a-48b0-94b5-8df6c9c85881"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[MOLHO DE TOMATE POMAROLA SACHE 340G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="323" width="23" height="20" uuid="33215d1a-4340-4d76-a587-7f6947b37232"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="303" width="86" height="20" uuid="04f11d22-ea7e-4367-9412-f268e87801e4"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="424" width="86" height="20" uuid="baa67f5f-29e1-4b61-a5a2-fbd3594c0ad0"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5601216120152]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="383" width="42" height="20" uuid="8613ca5a-4754-41c6-9a28-b6866f59c16a"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="464" width="220" height="20" uuid="0e997800-2117-4a04-8bf2-0b8922075e4e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="444" width="36" height="20" uuid="ada964ca-560a-41f5-902b-3d393d997034"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="323" width="39" height="20" uuid="03d2fc70-f7f7-4a0c-94b6-896479340b02"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="262" width="42" height="20" uuid="61f9f685-360a-4b89-86cd-c11d966483c6"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3,99]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="403" width="42" height="20" uuid="92cf0412-204c-456e-b837-24651ee8204a"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="323" width="36" height="20" uuid="fee96b8c-aa20-4457-b4b6-bccca1b6cae0"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1,0000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="282" width="42" height="20" uuid="a9172f1d-a04f-4ebc-a7a2-1c59365c71d6"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[-1,00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="444" width="23" height="20" uuid="7f22a0fb-81a7-4aaa-af3c-3a428ae2d4b4"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[UN]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
